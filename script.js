@@ -14,6 +14,7 @@
 const SUPABASE_URL = "https://bhijcbkilhscmyqfjdwn.supabase.co";
 const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJoaWpjYmtpbGhzY215cWZqZHduIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI5ODQ1MDUsImV4cCI6MjA5ODU2MDUwNX0.9d2pvzpQTLPEjr_bzzTknusAZG-bYRQpGc1X6u8PBqw";
 
+
 let sb = null;
 let SB_READY = false;
 try{
@@ -72,7 +73,7 @@ const LANGS = {
     hero_h2:'आपकी <span class="hl">सरकारी सेवाएं</span><br/>अब ऑनलाइन ट्रैक भी करें',
     hero_p:"आधार, पैन, प्रमाण पत्र एवं सभी सरकारी योजनाओं की सेवाएं एक ही जगह — साथ ही अपने आवेदन की लाइव स्थिति भी देखें।",
     hero_cta1:"सेवाएं देखें", hero_cta2:"आवेदन ट्रैक करें", live_feed_lbl:"लाइव आवेदन अपडेट्स",
-    hero_card_sub:"Common Service Centre — Government Authorized", addr_pending:"पता जल्द जोड़ा जाएगा", hero_open_now:"🟢 अभी खुला है",
+    hero_card_sub:"Common Service Centre — Government Authorized", addr_pending:"ग्राम धौर, जिला दुर्ग, छत्तीसगढ़ - 490024", hero_open_now:"🟢 अभी खुला है",
     svc_tag:"⚙️ हमारी सेवाएं", svc_title:"सभी सरकारी सेवाएं एक स्थान पर", svc_sub:"नीचे दी गई किसी भी सेवा के लिए फॉर्म देखें या आवेदन करें।",
     trk_tag:"🔍 आवेदन स्थिति", trk_title:"अपना आवेदन ट्रैक करें", trk_sub:"काउंटर से मिली Tracking ID डालकर अपने आवेदन की वर्तमान स्थिति देखें।",
     trk_ph:"जैसे: DSK2026-00123", trk_btn:"🔍 ट्रैक करें", trk_hint:"💡 Tracking ID आपको आवेदन जमा करते समय केंद्र से दी जाती है।",
@@ -105,7 +106,7 @@ const LANGS = {
     hero_h2:'Your <span class="hl">Government Services</span><br/>Now Track Online Too',
     hero_p:"Aadhaar, PAN, certificates and all government scheme services at one place — plus live tracking of your application status.",
     hero_cta1:"View Services", hero_cta2:"Track Application", live_feed_lbl:"Live Application Updates",
-    hero_card_sub:"Common Service Centre — Government Authorized", addr_pending:"Address coming soon", hero_open_now:"🟢 Open Now",
+    hero_card_sub:"Common Service Centre — Government Authorized", addr_pending:"Village Dhour, Dist. Durg, Chhattisgarh - 490024", hero_open_now:"🟢 Open Now",
     svc_tag:"⚙️ Our Services", svc_title:"All Government Services In One Place", svc_sub:"View the form or apply for any service listed below.",
     trk_tag:"🔍 Application Status", trk_title:"Track Your Application", trk_sub:"Enter the Tracking ID given at the counter to see your application's current status.",
     trk_ph:"e.g. DSK2026-00123", trk_btn:"🔍 Track", trk_hint:"💡 Your Tracking ID is given by the centre when you submit an application.",
@@ -138,7 +139,7 @@ const LANGS = {
     hero_h2:'आपकर <span class="hl">सरकारी सेवा</span><br/>अब ऑनलाइन ट्रैक घलो करव',
     hero_p:"आधार, पैन, प्रमाण पत्र अउ सब सरकारी योजना के सेवा एके जगह — अपन आवेदन के लाइव स्थिति घलो देखव।",
     hero_cta1:"सेवा देखव", hero_cta2:"आवेदन ट्रैक करव", live_feed_lbl:"लाइव आवेदन अपडेट",
-    hero_card_sub:"Common Service Centre — Government Authorized", addr_pending:"पता जल्दी जोड़े जाही", hero_open_now:"🟢 अभी खुला हे",
+    hero_card_sub:"Common Service Centre — Government Authorized", addr_pending:"गांव धौर, जिला दुर्ग, छत्तीसगढ़ - 490024", hero_open_now:"🟢 अभी खुला हे",
     svc_tag:"⚙️ हमर सेवा", svc_title:"सब सरकारी सेवा एके जगह मा", svc_sub:"नीचे दिए कोनो सेवा बर फॉर्म देखव या आवेदन करव।",
     trk_tag:"🔍 आवेदन स्थिति", trk_title:"अपन आवेदन ट्रैक करव", trk_sub:"काउंटर ले मिले Tracking ID डाल के अपन आवेदन के स्थिति देखव।",
     trk_ph:"जइसे: DSK2026-00123", trk_btn:"🔍 ट्रैक करव", trk_hint:"💡 Tracking ID आवेदन जमा करत बखत केंद्र ले मिलथे।",
