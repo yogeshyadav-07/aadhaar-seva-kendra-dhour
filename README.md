@@ -94,4 +94,4 @@ Village Dhour, Dist. Durg, Chhattisgarh - 490024, India
 
 ## 📄 License
 
-This project is provided for the centre's own use. Please contact the developer for reuse or modification permissions.
+This project is provided for the centre's own use. Please contact the developer for reuse or modification permissions. 
