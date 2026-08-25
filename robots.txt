@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aadhaar-seva-kendra-dhour.vercel.app/sitemap.xml
